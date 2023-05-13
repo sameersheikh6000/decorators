@@ -1,9 +1,7 @@
 dist: trusty
 language: ruby
 rvm:
-  - 2.5.1
-  - 2.4.1
-  - 2.3.1
+  - "ruby-3.1.2"
   - jruby-9.1.2.0
 script:
   - bundle exec rspec spec/
