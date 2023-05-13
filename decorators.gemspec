@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
     readme.md
   ]
 
-  s.add_dependency             "railties", ">= 4.0.0", "< 7"
-  s.add_development_dependency "rspec", "~> 3.5", ">= 3.5.0"
+  s.add_dependency             'railties', '~> 7.0', '>= 7.0.4.3'
+  s.add_development_dependency "rspec", '~> 3.12'
 
   s.cert_chain  = ["certs/parndt.pem"]
   if $0 =~ /gem\z/ && ARGV.include?("build") && ARGV.include?(__FILE__)
